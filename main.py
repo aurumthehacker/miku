@@ -110,7 +110,7 @@ async def ping(ctx):
 # Command to send a special YouTube video link
 @bot.command()
 async def youtube(ctx):
-    special_link = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    special_link = "https://youtube.com/shorts/2oa5WCUpwD8?si=H3t0B9WQx3vU0O4D"
     await ctx.send(f'<:MikuHeart:1268780241380446229> See This Oni San!!!...: {special_link}')
 
 # Respond to bot mention with its information
